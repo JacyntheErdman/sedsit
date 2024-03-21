@@ -1,0 +1,37 @@
+{
+  "name": "sedsit",
+  "version": "1.0.0",
+  "description": "Neutrino preset for adding Airbnb's JS ESLint config, following the Airbnb styleguide",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JacyntheErdman/sedsit.git"
+  },
+  "keywords": [
+    "neutrino",
+    "neutrino-preset",
+    "airbnb",
+    "ipsa"
+  ],
+  "author": "JaunitaSchaefer",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/JacyntheErdman/sedsit.git",
+  "dependencies": {
+    "deepmerge": "^1.4.3",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.1.0",
+    "neutrino-middleware-eslint": "^6.0.0"
+  },
+  "peerDependencies": {
+    "neutrino": "^6.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "neutrino": "^6.0.0",
+    "standard-version": "^4.0.0",
+    "webpack": "^2.6.1"
+  }
+}
